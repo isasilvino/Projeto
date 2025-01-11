@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
  *
  * @author Isa
  */
-public class ProfessorDAO {//USUARIO SERIA O PROFESSOR
+public class ProfessorDAO {
 
     Connection conn;
     PreparedStatement pstm;
