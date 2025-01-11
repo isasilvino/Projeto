@@ -26,7 +26,7 @@ public class AlunoDAO {
             pstm.setString(1, objAlunoDTO.getMatricula());
             pstm.setString(2, objAlunoDTO.getSenha());
 
-            // Retorna o ResultSet
+            
             return pstm.executeQuery();
         } catch (SQLException erro) {
             JOptionPane.showMessageDialog(null, "Erro ao autenticar usuário: " + erro.getMessage());
